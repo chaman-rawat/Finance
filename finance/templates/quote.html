@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+  <form action="/quote" method="post">
+    <div class="form-group ">
+      <input autocomplete="off" autofocus class="form-control" name="symbol" placeholder="Symbol" type="text" list="match-list" id="search" required>
+      <datalist id="match-list"></datalist>
+    </div>
+    <button class="btn btn-primary" type="submit">Quote</button>
+  </form>
+
+  <script src="/static/autocomplete_searchbar.js" type="text/javascript"></script>
+
+{% endblock %}

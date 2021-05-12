@@ -1,0 +1,18 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Apology
+{% endblock %}
+
+{% block main %}
+	<div class="form-group">
+    	<img alt="{{ top }}" class="border" src="http://memegen.link/custom/{{ top | urlencode }}/{{ bottom | urlencode }}.jpg?alt=https://i.kym-cdn.com/entries/icons/original/000/027/475/Screen_Shot_2018-10-25_at_11.02.15_AM.png?height=auto&width=800" title="{{ top }}">
+	</div>    
+    <button class="btn btn-primary" onclick="goBack()" style="display:inline-block; margin-bottom: -20px;">Go Back</button>
+
+	<script type="text/javascript">
+		function goBack() {
+			window.history.back();
+		}
+	</script>
+{% endblock %}

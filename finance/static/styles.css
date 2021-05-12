@@ -1,0 +1,100 @@
+body {
+    background: linear-gradient(90deg, #ebffec, #ffffff);
+}
+
+a {
+    color: #20c997;
+}
+
+strong {
+    font-weight: 500;
+    color: #004803;
+}
+
+.navbar {
+    background-color: #b4e4b6!important;
+    border-bottom: 0.5px solid #848484bd!important;
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+nav .brand {
+    /* size for brand */
+    font-size: 2.5rem;
+    color: #006d05;
+    font-weight: 500;
+    text-shadow: 2px 1px 1px #343a40;
+}
+
+li.nav-item {
+    margin-left: 1vw;
+}
+
+
+/* navigation items */
+
+nav .nav-link {
+    color: #000000b0 !important;
+    font-size: 1.35rem;
+    font-weight: 500;
+}
+
+nav .nav-link:focus,
+nav .nav-link:hover,
+nav .nav-link:active {
+    font-weight: bold;
+    background: #006d2038;
+    border-radius: 5px;
+}
+
+main .form-control {
+    /* center form controls */
+    display: inline-block;
+    /* override Bootstrap's 100% width for form controls */
+    width: auto;
+}
+
+main {
+    /* scroll horizontally as needed */
+    overflow-x: auto;
+    /* center contents */
+    text-align: center;
+}
+
+main img {
+    /* constrain images on small screens */
+    max-width: 100%;
+}
+
+main .form-control {
+    width: 15rem;
+    font-size: 1.2rem;
+}
+
+.btn,
+.btn-primary {
+    background-color: #43a047;
+    border-color: #43a047;
+    font-size: 1.1rem;
+    padding: 5px 20px;
+}
+
+button:focus,
+button:hover,
+button:active {
+    background-color: #2e7d32 !important;
+    border-color: #2e7d32 !important;
+}
+
+thead {
+    color: #334236;
+    background: #a5d6a7;
+}
+
+@media (max-width: 500px) {
+    .p-5 {
+        padding: 3rem 5px !important;
+    }
+}
